@@ -12,7 +12,6 @@ public class Deliver : MonoBehaviour {
 		}
 
 		if (other.gameObject.CompareTag("Load")) {
-			Debug.Log("Delivery Complete");
 			_delivered = true;
 			GameObject o;
 			(o = other.gameObject).GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;

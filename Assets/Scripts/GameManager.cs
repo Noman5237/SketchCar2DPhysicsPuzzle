@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 	public Camera mainCamera;
@@ -11,6 +12,9 @@ public class GameManager : MonoBehaviour {
 	private EdgeCollider2D edgeCollider;
 
 	private List<Vector2> mousePositions;
+
+	private float _drawTime = 30;
+	public Slider drawTimeSlider;
 
 	// Start is called before the first frame update
 	void Start() {
@@ -26,9 +30,12 @@ public class GameManager : MonoBehaviour {
 		if (Input.GetMouseButton(0)) {
 			Vector2 mousePositionCurr = mainCamera.ScreenToWorldPoint(Input.mousePosition);
 			if (Vector2.Distance(mousePositionCurr, mousePositions[mousePositions.Count - 1]) > 0.1f) {
+				_drawTime -= Time.deltaTime;
 				ExtendRoad(mousePositionCurr);
 			}
 		}
+
+		drawTimeSlider.value = _drawTime;
 	}
 
 	void CreateRoad() {
