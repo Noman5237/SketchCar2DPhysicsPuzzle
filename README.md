@@ -37,7 +37,8 @@ Goal:
     Secondary Objective: Deliver the packages to delivery stations
 
 Future Updates:
-    
+
+    0. Erase Paths
     1. Plug and Play Module for the main car for using different types of equipments
     2. Powerups and upgrades for the car
     3. Many many hard missions
