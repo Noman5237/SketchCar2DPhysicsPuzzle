@@ -12,12 +12,13 @@ GameObject:
   - component: {fileID: 7407103652246469407}
   - component: {fileID: -2077062616265304400}
   - component: {fileID: -5026363790688694397}
-  m_Layer: 0
+  - component: {fileID: 1912869789}
+  m_Layer: 10
   m_Name: DeliveryStation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7407103652246469404
 Transform:
@@ -118,10 +119,10 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.21888243, y: -0.6442581}
+  m_Offset: {x: -0.16253617, y: 0.19154513}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.17661692, y: 0.06744058}
     oldSize: {x: 2.56, y: 2.56}
     newSize: {x: 2.56, y: 2.56}
     adaptiveTilingThreshold: 0.5
@@ -129,8 +130,20 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0319517, y: 0.8750175}
+  m_Size: {x: 1.1446443, y: 2.546624}
   m_EdgeRadius: 0
+--- !u!114 &1912869789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7407103652246469406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f9aaaeb9a487149927bdc7b15a4a4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7407103651868767955
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -146,12 +159,12 @@ PrefabInstance:
     - target: {fileID: 8760969593290007628, guid: 673543d229b70fa49b60dd99e4489206,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.25105366
+      value: 0.228
       objectReference: {fileID: 0}
     - target: {fileID: 8760969593290007628, guid: 673543d229b70fa49b60dd99e4489206,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.173322
+      value: -0.06
       objectReference: {fileID: 0}
     - target: {fileID: 8760969593290007628, guid: 673543d229b70fa49b60dd99e4489206,
         type: 3}
