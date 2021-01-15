@@ -1,0 +1,93 @@
+
+#+TITLE: 2D Car Puzzle Game
+* Abstract
+  Player has to drive a vehicle and associated cargo vehicle with the
+  task of delivering cargos to multiple different stations situated in vertical heights
+
+
+* Genre
+  Hypercasual Puzzle
+
+
+* Targeted Platform
+  Android and IOS only
+
+
+* Game Mechanics
+
+** Modes 
+  There are two modes in this game and player can only access one mode in any given time
+*** Draw Mode
+    Player can draw or erase paths.
+*** Drive Mode
+    Player can drive the vehicle.
+    Player can attach/remove any cargo vehicle in the carrier chain.
+
+
+** Resources 
+   Player will be allocated a fixed amounts of resources which are,
+*** Ink
+    To draw path
+*** Eraser
+    To erase drawn paths
+*** Fuel
+    To drive the vehicle
+
+
+** Elements of Control
+   Player has control over the following elements to optimize the use of resources:
+*** Movement
+    Player has to plan the movements of the vehicle carefully to optimize the use of all allocated resources. 
+*** Fuel Pressure
+    Player can manipulate the fuel pressure to generate optimized amount of POWER
+    needed to drive along the vertical slope with the added challenge of minimizing the
+    use of fuel.
+*** No of Cargo Vehicles attached
+    Player has the ability to control the number of attached cargo vehicles to pull.
+
+** Uncontrollable Element
+*** Tyre Wear
+    The more a player will move the more will his tires wear. Tire wear controls the grip player has
+    over surface
+
+* Goal
+  The goal of player is to deliver cargos in all the stations and reach the END platform by managing the
+  allocated resources optimally.
+
+
+* Game Play
+  Paths can be conjuncted. Players will be allocated fixed amount of resources at every level.
+  The remainings of resources from played levels will be added to the inventory of the players.
+  Players will start the new round with the amount of resources he have in his inventory.
+
+
+* Scoring
+  Score will be weighted sum of the amount of remaining resources left. 
+  There will be two online leaderboards based on time and points.
+
+
+* Game Money
+  Players can sell the resources 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
