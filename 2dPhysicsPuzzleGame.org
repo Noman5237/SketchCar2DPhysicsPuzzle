@@ -1,8 +1,16 @@
 
 #+TITLE: 2D Car Puzzle Game
+
 * Abstract
   Player has to drive a vehicle and associated cargo vehicle with the
   task of delivering cargos to multiple different stations situated in vertical heights
+
+
+* Inspiration
+  Hill Climbing Racing
+
+  Many powerups, environment settings and gameplay mechanics are inspired
+  from Hill Climbing Racing
 
 
 * Genre
@@ -45,29 +53,65 @@
 *** No of Cargo Vehicles attached
     Player has the ability to control the number of attached cargo vehicles to pull.
 
+    
 ** Uncontrollable Element
 *** Tyre Wear
     The more a player will move the more will his tires wear. Tire wear controls the grip player has
-    over surface
+    over surface.
+
 
 * Goal
-  The goal of player is to deliver cargos in all the stations and reach the END platform by managing the
-  allocated resources optimally.
+  The goal of player is to deliver cargos in all the stations and reach the END platform by managing the allocated resources optimally.
 
-
+  
 * Game Play
-  Paths can be conjuncted. Players will be allocated fixed amount of resources at every level.
-  The remainings of resources from played levels will be added to the inventory of the players.
-  Players will start the new round with the amount of resources he have in his inventory.
+**** Paths can be conjuncted. And this feature will be given after the player gets used to with the game.
+**** The first two or three levels will be tutorials with unlimited resources and no car upgrades.
+**** Players will start the new round with the amount of resources he have in his inventory.
+**** The remainings of resources from completed levels will be added to the inventory of the players.
+**** Players will be allocated fixed amount of resources for the next round after he completes the previous round.
+**** Players will have a full preview of any level before starting to actually play the level.
+**** Engines wear out after playing and they can be automatically serviced in exchange of time.
+**** We can have different types of environments like plain green, icy, street, forest etc.
+     TODO List all the different types of environments
+
+
+* Powerups
+  Players can have sets of powerups attached to the vehicle. Each set can have at most 3 or 4 powerups.
+  Powerups can be bought with money.
+  Some possible powerups can be:
+*** Roll cage
+    Protects driver from hits
+*** Winter tyres
+    Increase overall grip with special bonus on snowy and icy surfaces
+*** Fume Boost
+    Power boost when fuel pressure is low
+*** Nitro
+    Additional power boost from nitro compartment
+*** Glider
+    Car can glide from one platform (high) to another (low) instead of parabolic downfall due to gravity
 
 
 * Scoring
   Score will be weighted sum of the amount of remaining resources left. 
   There will be two online leaderboards based on time and points.
 
-
+  
 * Game Money
-  Players can sell the resources 
+  Players can sell the resources from inventory to earn money.
+  And money can be used to upgrade various parts of the vehicle like increasing the maximum power, more efficient engine, and less tyre wear and also other resources or can even buy new vehicles.
+  For example, players can buy new tyres with the money he earned after selling some fuel.
+  We can add in game purchases and advertisements to buy resource packs.
+
+*** Crazy Idea?
+    Players can set their resources on sell online for money or other resources.
+    But then we have to add in game purchases as a competetive seller.
+    The exchange rate is kinda tricky.
+    More experienced players can invest in the vehicles in the less experienced players and can get a
+    cut in the resources earned from the invested player. But this investment thing will be balanced and controlled 
+    so that players can't get the investment all the time.
+  
+
 
 
 
